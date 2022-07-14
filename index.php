@@ -2,9 +2,8 @@
 require_once 'db/db.php';
 $error=null;
 try {
-    if(isset($pdo)){
-        $personnes=$pdo->query('SELECT * FROM personne')->fetchAll();
-    }
+    $pdo??die('Erreur de connexion');
+    $personnes=$pdo->query('SELECT * FROM personne')->fetchAll();
 }catch(PDOException $e){
     $error=$e->getMessage();
 }
