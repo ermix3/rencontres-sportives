@@ -53,8 +53,7 @@ function selected($value, $selected)
 ?>
 
     <!--header-->
-<?php $root = './';
-require_once 'inc/header.php' ?>
+<?php $title='Ajouter un ...';$root = './';require_once 'inc/header.php' ?>
 
     <!--content-->
     <div class="container " style="min-height: 75vh;">

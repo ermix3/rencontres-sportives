@@ -5,26 +5,26 @@
                 <span class="copyright text-white">Copyright &copy; Rencontres Sportives Website 2022</span>
             </div>
             <div class="col-md-4">
-                <ul class="list-inline social-buttons">
+                <ul class="list-inline social-buttons d-flex justify-content-center">
                     <li class="list-inline-item">
                         <a href="#">
                             <i class="fab fa-twitter text-white fw-bold fs-5"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="#">
+                        <a href="https://www.facebook.com/er.reda.7/" target="_blank">
                             <i class="fab fa-facebook-f text-white fw-bold fs-5"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="#">
+                        <a href="https://www.linkedin.com/in/ermich-reda/" target="_blank">
                             <i class="fab fa-linkedin-in text-white fw-bold fs-5"></i>
                         </a>
                     </li>
                 </ul>
             </div>
             <div class="col-md-4">
-                <ul class="list-inline quicklinks">
+                <ul class="list-inline d-flex d-flex justify-content-center justify-content-md-end">
                     <li class="list-inline-item">
                         <a href="#" class="text-white">Privacy Policy</a>
                     </li>
