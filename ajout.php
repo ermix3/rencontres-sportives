@@ -60,7 +60,7 @@ function selected($value, $selected)
         <div class="row">
             <div class="col-12">
                 <h1 class="display-1 my-3">Inscrivez-vous:</h1>
-                <form action="<?= $_SERVER['PHP_SELF'] ?>" method="post">
+                <form  method="post">
                     <div class="row">
                         <div class="col-6">
                             <div class="card">

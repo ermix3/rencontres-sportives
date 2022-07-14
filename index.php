@@ -24,7 +24,7 @@ try {
             <div class="card-header d-flex justify-content-between ">
                 <h2>Liste</h2>
                 <a href="#">
-                    <a href="ajout.php" role="button" class="btn btn-outline-success">Ajouter</a>
+                    <a href="ajout.php" role="button" class="btn btn-outline-success btn-lg shadow  ">Ajouter</a>
                 </a>
             </div>
             <div class="card-body">
@@ -49,8 +49,8 @@ try {
                                 <td><?=$personne->depart?></td>
                                 <td><?=$personne->email?></td>
                                 <td class="d-flex justify-content-center">
-                                    <a href="crud/modifierC.php?id=<?=$personne->id?>" class="btn btn-outline-warning me-3">modifier</a>
-                                    <a href="crud/supprimer.php?id=<?=$personne->id?>" class="btn btn-outline-danger" onclick="return confirm('Delete this?');">supprimer</a>
+                                    <a href="modifier.php?id=<?=$personne->id?>" class="btn btn-outline-warning shadow me-3">Modifier</a>
+                                    <a href="supprimer.php?id=<?=$personne->id?>" class="btn btn-outline-danger shadow" onclick="return confirm('Delete this?');">Supprimer</a>
                                 </td>
                             </tr>
                         <?php endforeach ?>
