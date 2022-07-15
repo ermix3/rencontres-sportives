@@ -9,7 +9,7 @@ try {
 }
 ?>
 <!--header-->
-<?php $title='Home';$root='./';require_once 'inc/header.php' ?>
+<?php $title='Home';require_once 'inc/header.php' ?>
 
 <!--content-->
 <div class="container">

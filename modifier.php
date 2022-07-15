@@ -22,7 +22,7 @@ if(!empty($_POST)) {
 }
 ?>
 <!-- header -->
-<?php $title='Modifier un ...';$root='./';require_once 'inc/header.php'; ?>
+<?php $title='Modifier un ...';require_once 'inc/header.php'; ?>
 
 <!-- content -->
 <div class="container">
