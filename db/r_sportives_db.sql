@@ -39,12 +39,10 @@ VALUES  ('Football'),
         ('Basket'),
         ('Tennis');
 
-
+-- some queries
 SELECT * FROM `personne`;
 SELECT * FROM `sport`;
 SELECT * FROM `pratique`;
-
-
 SELECT *
 FROM `personne`
 WHERE id IN (SELECT personne_id
